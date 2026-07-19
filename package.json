@@ -1,0 +1,35 @@
+{
+  "name": "@4fu/pi-bin-hints",
+  "version": "0.1.0",
+  "description": "Detect installed modern Unix-tool replacements (rg, fd, sd, ...) once per session and inject a single stable line into pi's system prompt",
+  "license": "MIT",
+  "author": "4fuu",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "cli-tools",
+    "system-prompt"
+  ],
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.80.10",
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
