@@ -3,7 +3,7 @@
 Detect installed modern Unix-tool replacement binaries (`rg`, `fd`, `sd`, `bat`, …) **once per session** and inject a single stable line into pi's system prompt:
 
 ```
-当前常用的Unix工具替代二进制可用有：rg/fd/sd/bat/...
+Modern Unix-tool replacement binaries available on this machine: rg/fd/sd/bat/...
 ```
 
 ## Why

@@ -107,7 +107,7 @@ export default function (pi: ExtensionAPI) {
 
 	pi.on("session_start", async () => {
 		const bins = detectBinaries();
-		line = bins.length > 0 ? `\n\n当前常用的Unix工具替代二进制可用有：${bins.join("/")}` : undefined;
+		line = bins.length > 0 ? `\n\nModern Unix-tool replacement binaries available on this machine: ${bins.join("/")}` : undefined;
 	});
 
 	// Appends the same constant suffix every turn. Because the base prompt and
