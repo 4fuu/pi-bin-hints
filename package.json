@@ -4,6 +4,10 @@
   "description": "Detect installed modern Unix-tool replacements (rg, fd, sd, ...) once per session and inject a single stable line into pi's system prompt",
   "license": "MIT",
   "author": "4fuu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4fuu/pi-bin-hints.git"
+  },
   "type": "module",
   "keywords": [
     "pi-package",
