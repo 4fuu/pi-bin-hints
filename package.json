@@ -1,6 +1,6 @@
 {
   "name": "@4fu/pi-bin-hints",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Detect installed modern Unix-tool replacements (rg, fd, sd, ...) once per session and inject a single stable line into pi's system prompt",
   "license": "MIT",
   "author": "4fuu",
