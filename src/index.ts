@@ -107,7 +107,7 @@ export default function (pi: ExtensionAPI) {
 
 	pi.on("session_start", async () => {
 		const bins = detectBinaries();
-		line = bins.length > 0 ? `\n\nThese faster cross-platform tools are available: ${bins.join("/")}. Prefer them over their classical Unix equivalents.` : undefined;
+		line = bins.length > 0 ? `\n\nThese faster cross-platform tools are available: ${bins.map((b) => `\`${b}\``).join(" / ")}. Prefer them over their classical Unix equivalents.` : undefined;
 	});
 
 	// Appends the same constant suffix every turn. Because the base prompt and
